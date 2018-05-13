@@ -1,9 +1,9 @@
 package kr.ac.kumoh.s20110214.myapplication;
 
-import android.util.Log;
+        import android.util.Log;
 
-import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.iid.FirebaseInstanceIdService;
+        import com.google.firebase.iid.FirebaseInstanceId;
+        import com.google.firebase.iid.FirebaseInstanceIdService;
 
 public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
     private final static String TAG = "FCM_ID";
